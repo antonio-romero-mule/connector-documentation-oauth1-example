@@ -1,13 +1,18 @@
 WELCOME
 =======
 This sample DropBox OAuth1 connector is part of the DevKit documentation. 
-It is used to illustrate implementing OAuth1 in any connector. 
+
+Its primary use is to illustrate implementing OAuth1 in any connector.
+
+It also shows:
+- Using Jersey Client to call the RESTful DropBox API
+- Using Jackson to read the response from an API call into a POJO
 
 
 TESTING
 =======
 
-This project also contains test classes that can be run as part of a test
+This project contains test classes that can be run as part of a test
 suite.
 
 ADDITIONAL RESOURCES
